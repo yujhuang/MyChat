@@ -1,6 +1,11 @@
 # MyChat
 A modified version of chatty project using private_hub and Thin.   (Added group chat based on private chat for now) 
 
+#Start version References
+  https://github.com/Joseph-N/chatty
+
+
+#To get this working
   Go ahead and do git clone
   Do bundle
   
@@ -18,7 +23,7 @@ A modified version of chatty project using private_hub and Thin.   (Added group 
  
      rails s -p $PORT -b $IP
      
-Reminder
+#Reminder
 
  For Thin server, it should be running on new terminal. It is for real time chatting which uses faye/faye.js (does not work for now)
      Run this command for chat server in a different terminal
