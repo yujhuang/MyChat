@@ -25,7 +25,7 @@ A modified version of chatty project using private_hub and Thin.   (Added group 
      
 #Reminder
 
- For Thin server, it should be running on new terminal. It is for real time chatting which uses faye/faye.js (does not work for now)
+ For Thin server, it should be running on new terminal. It is only for 'real time' functionality of the chatting app which uses faye/faye.js (does not work for now and need refresh page everytime send messages)
      Run this command for chat server in a different terminal
      
      rackup private_pub.ru -s thin -E production
